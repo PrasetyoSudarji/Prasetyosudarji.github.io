@@ -9,7 +9,6 @@ Follow me on Github : https://github.com/14113003
 
 Contact
 Line	 : prasetyosudarji
-Facebook : facebok.com/arzkira
+Facebook : http://facebok.com/arzkira
 WA		 : 085788453601
 
-# test
