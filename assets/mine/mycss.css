@@ -2,6 +2,11 @@ body {
       position: relative;
   }
 
+@media screen and (max-width: 810px) {
+#profile, #workExperience, #skill, #educationalBackground {
+    margin-left: 150px;
+}
+
   .affix {
       top: 20px;
   }
