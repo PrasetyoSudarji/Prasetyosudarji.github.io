@@ -5,6 +5,10 @@ body {
       font-family: 'Font Awesome';
   }
 
+  .affix {
+      top: 20px;
+  }
+
 .containerProfile {
 	position: relative;
 	border-left: 10px solid red;
