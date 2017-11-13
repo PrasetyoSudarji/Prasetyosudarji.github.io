@@ -1,8 +1,14 @@
 body {
       position: relative;
+      font-family: 'FontAwesome';
   }
 
-@media screen and (max-width: 810px) {
+  @font-face {
+    font-family: 'FontAwesome'; /*a name to be used later*/
+    src: url('../fonts/fontawesome-webfont.ttf'); /*URL to font*/
+}
+
+@media screen and (max-width: 1920px) {
 #profile, #workExperience, #skill, #educationalBackground {
     margin-left: 150px;
 }
@@ -17,6 +23,7 @@ body {
 	padding: 10px;
 	width: 100%;
 	height: 500px;
+	/*background-image: url(../image/bg-profile.png);*/
 }
 
 .containerWorkExp {
@@ -47,3 +54,12 @@ body {
 #workExperience {color: #000; background-color: rgb(249, 255, 255);}
 #skill {color: #fff; background-color: rgb(190, 190, 190);}
 #educationalBackground {color: #000; background-color: rgb(249, 255, 255);}
+
+.title-top {
+	font-size: 500%;
+}
+
+.container-fluid {
+	text-align: center;
+	vertical-align: middle;
+}
