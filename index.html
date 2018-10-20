@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/mine/style.css">
   <link rel="stylesheet" href="./assets/mine/style2.css">
   <link rel="shortcut icon" href="./assets/image/icon.png">    
@@ -16,7 +17,8 @@
   
 </head>
 <body>
-
+<!-- Scroll Costum Button -->
+<button onclick="topFunction()" id="myScrollBtn" title="Go to top"><i class="fa fa-home"></i></button>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container">
@@ -41,22 +43,23 @@
 <!-- First Container -->
 <div id="home">
   <div class="container-fluid bg-1 text-center">
-    <h3 class="margin">Who Am I?</h3>
-    <img src="./assets/image/Profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="350" height="350">
-    <h3>I'm an Engineer</h3>
+    <h3 class="margin"><b>Who Am I?</b></h3>
+    <img src="./assets/image/profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <h3><b>I'm an Engineer</b></h3>
   </div>
 </div>
 
 <!-- Second Container -->
 <div id="myprofile">
   <div class="container-fluid bg-2 text-center">
-    <h3 class="margin">About Me</h3>
+    <h3 class="margin"><b>About Me</b></h3>
     <p>I have completed my studies in Informatics Engineering at Institut Teknologi Sumatera, Lampung, Indonesia.</p>
     <br>
     <div class='row'>
       <div class='col-md-offset-2 col-md-8'>
-        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel" style="padding-bottom: 10px;">
           <!-- Bottom Carousel Indicators -->
+          
           <ol class="carousel-indicators">
             <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#quote-carousel" data-slide-to="1"></li>
@@ -65,7 +68,6 @@
           
           <!-- Carousel Slides / Quotes -->
           <div class="carousel-inner">
-          
             <!-- Quote 1 -->
             <div class="item active">
               <blockquote>
@@ -99,7 +101,7 @@
               <blockquote>
                 <div class="row">
                   <div class="col-sm-3 text-center">
-                    <img class="img-circle" src="./assets/image/avatar.png" style="width: 100px;height:100px;">
+                    <img class="img-circle" src="./assets/image/john_johnson.jpg" style="width: 100px;height:100px;">
                   </div>
                   <div class="col-sm-9">
                     <p>First, solve the problem. Then, write the code.</p>
@@ -116,20 +118,17 @@
         </div>                          
       </div>
     </div>
-    <a href="#" class="btn btn-default btn-lg">
-      <span class="glyphicon glyphicon-search"></span> Search
-    </a>
   </div>
 </div>
 
 <!-- Third Container (Grid) -->
 <div id="mygalery">
   <div class="container-fluid bg-3 text-center">    
-    <h3 class="margin">My Adventure</h3><br>
+    <h3 class="margin"><b>My Adventure</b></h3><br>
     <div class="row">
       <div class="col-sm-4">
        <p>A trip on the mountain that has a <b>beautiful view</b> and an <b>amazing blue fire</b> with fams.</p>
-        <img src="./assets/image/Slider0.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <img src="./assets/image/slider0.jpg" class="img-responsive margin" style="width:100%" alt="Image">
         <div class="carousel-caption">
           <h3><b>Mt. Ijen</b></h3>
           <h4>Banyuwangi</h4>
@@ -137,7 +136,7 @@
       </div>
       <div class="col-sm-4"> 
         <p>A trip on the beach that has a <b>beautiful view</b> and an <b>amazing waves</b> with my lovely sister.</p>
-        <img src="./assets/image/Slider1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <img src="./assets/image/slider1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
         <div class="carousel-caption">
           <h3><b>Pantai Pulau Merah</b></h3>
           <h4>Banyuwangi</h4>
@@ -145,11 +144,21 @@
       </div>
       <div class="col-sm-4"> 
         <p>I have gained a lot of <b>experience in teamwork</b> to <b>develop game applications with unity</b>.</p>
-        <img src="./assets/image/Slider3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <img src="./assets/image/slider3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
         <div class="carousel-caption">
           <h3><b>C++ Programmer Intern</b></h3>
           <h4><b>PT. Gameloft Indonesia</b></h4>
           <h4>Yogyakarta</h4>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <p>Here we go! A new journey begins <i class="em em-smile"></i>.</p>
+        <p> <b>Thank you to everyone</b> who helped me a lot in my studies, especially to <b>my beloved parents</b>. I love you so much guys <i class="em em-heart"></i></p>
+        <img src="./assets/image/slider4.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <div class="carousel-caption">
+          <h4><b>Bachelor Degree of Informatics Engineering</b></h4>
+          <h4><b>Institut Teknologi Sumatera</b></h4>
+          <h4>Lampung</h4>
         </div>
       </div>
     </div>
@@ -158,26 +167,27 @@
 
 <div id="mycontact">
   <div class="container-fluid bg-4 text-center">    
-    <h3 class="margin">Contact Me</h3><br>
+    <h3 class="margin"><b>Contact Me</b></h3><br>
     <div class="row">
       <div class="col-sm-3">
+
         <a href="https://www.instagram.com/prasetyosudarji_" target="_blank">
-          <img src="./assets/image/instagram.png" class="img-responsive margin" style="width:50%" alt="Image">
+          <img src="./assets/image/instagram.png" class="img-responsive margin contactImages" style="width:25%" alt="Image">
         </a>
       </div>
       <div class="col-sm-3">
         <a href="https://web.facebook.com/prasetyosudarji" target="_blank">
-          <img src="./assets/image/facebook.png" class="img-responsive margin" style="width:50%" alt="Image">
+          <img src="./assets/image/facebook.png" class="img-responsive margin contactImages" style="width:25%" alt="Image">
         </a>
       </div>
       <div class="col-sm-3"> 
         <a href="https://www.linkedin.com/in/prasetyosudarji" target="_blank">
-          <img src="./assets/image/linkedin.png" class="img-responsive margin" style="width:50%" alt="Image">
+          <img src="./assets/image/linkedin.png" class="img-responsive margin contactImages" style="width:25%" alt="Image">
         </a>
       </div>
       <div class="col-sm-3"> 
         <a href="https://github.com/PrasetyoSudarji" target="_blank">
-          <img src="./assets/image/github.png" class="img-responsive margin" style="width:50%" alt="Image">
+          <img src="./assets/image/github.png" class="img-responsive margin contactImages" style="width:25%" alt="Image">
         </a>
       </div>
     </div>
